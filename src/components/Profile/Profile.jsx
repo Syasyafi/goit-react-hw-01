@@ -1,6 +1,6 @@
 import css from "./Profile.module.css";
 
-const Profile = ({ username, tag, location, image, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
   return (
     <div className={css.profile}>
